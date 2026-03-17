@@ -1,0 +1,7 @@
+data/
+*.csv
+*.zip
+fraud-env/
+.vscode/
+models/
+app/__pycache__/
