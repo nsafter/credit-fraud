@@ -17,6 +17,7 @@ explainability using SHAP.
 - scikit-learn — preprocessing and evaluation
 
 ## Project Structure
+```
 fraud-project/
 ├── app/
 │   └── main.py         # FastAPI endpoint
@@ -24,9 +25,9 @@ fraud-project/
 │   └── 01_eda.ipynb    # EDA, training, evaluation
 ├── requirements.txt
 └── README.md
+```
 
 ## API Response Example
-```
 {
   "fraud_probability": 0.91,
   "is_fraud": true,
@@ -36,7 +37,6 @@ fraud-project/
     {"feature": "V11", "impact": -1.87}
   ]
 }
-```
 
 ## Key Decisions
 - Applied SMOTE only to training data to prevent data leakage
