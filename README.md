@@ -26,6 +26,7 @@ fraud-project/
 └── README.md
 
 ## API Response Example
+```
 {
   "fraud_probability": 0.91,
   "is_fraud": true,
@@ -35,6 +36,7 @@ fraud-project/
     {"feature": "V11", "impact": -1.87}
   ]
 }
+```
 
 ## Key Decisions
 - Applied SMOTE only to training data to prevent data leakage
